@@ -1,0 +1,40 @@
+{
+  "oppdatert": "2026-01-15",
+  "basisvaluta": "NOK",
+  "posisjoner": [
+    {
+      "navn": "Example Corp",
+      "ticker": "EXMP",
+      "type": "aksje",
+      "antall": 10,
+      "kjopsdato": "2026-01-02",
+      "kjopskurs_usd": 100.0,
+      "kjopskurs_usdnok": 10.0,
+      "kostpris_nok": 10000,
+      "valuta": "USD",
+      "investeringstese": "<SKRIV INVESTERINGSTESEN HER: hvorfor du eier aksjen og hva som må gå riktig vei>",
+      "kjente_risikoer": [
+        "<Kjent risiko 1>",
+        "<Kjent risiko 2>"
+      ],
+      "tesen_brytes_hvis": [
+        "<Konkret hendelse som gjør at tesen ikke lenger holder>",
+        "<En annen konkret hendelse>"
+      ]
+    },
+    {
+      "navn": "Example Global Index Fund",
+      "ticker": null,
+      "proxy_ticker": "ACWI",
+      "proxy_forklaring": "Fondet har ingen ticker hos Alpha Vantage, så en ETF med lignende indeks brukes som mål på daglig utvikling.",
+      "type": "indeksfond",
+      "verdi_nok": 5000,
+      "verdi_dato": "2026-01-15",
+      "innskudd_nok": 5000,
+      "kommende_innskudd_nok": 0,
+      "arlig_kostnad_prosent": 0.2,
+      "valuta": "NOK",
+      "investeringstese": "<SKRIV INVESTERINGSTESEN HER: f.eks. bred, billig eksponering mot verdensmarkedet over lang tid>"
+    }
+  ]
+}

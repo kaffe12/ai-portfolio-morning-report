@@ -1,0 +1,6 @@
+logs/
+rapporter/
+portfolio.json
+.env
+.DS_Store
+.claude/settings.local.json
